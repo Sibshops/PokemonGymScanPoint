@@ -42,6 +42,8 @@ const GymList kGymList =
     {"City of Arnold",40.580041,-79.767265},
     {"Arnold Volunteer Engine Co. #2 Memorial",40.579746,-79.762123},
     {"John 15:13 Monument",40.581383,-79.753979},
+
+    /// Brakenridge
     {"Holy Martyrs Church",40.600008,-79.765682},
     {"Bethel Church",40.599627,-79.76275},
     {"Slovak American Club",40.600244,-79.760636},
@@ -70,7 +72,7 @@ const GymList kGymList =
 // Bad
 //
 
-const double kScanRadius = 0.007;
+const double kScanRadius = 0.0065;
 
 struct ScanPoint
 {

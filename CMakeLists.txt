@@ -9,7 +9,9 @@ set (CMAKE_CXX_STANDARD 11)
 
 #indicate the entry point for the executable
 add_executable (PokemonGymScanPoint ScanMain.cpp)
+add_executable (PokemonGymScanAll ScanAll.cpp)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wno-long-long -pedantic")
 
-install (TARGETS PokemonGymScanPoint DESTINATION bin)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wno-long-long -pedantic -ggdb -O2")
+
+install (TARGETS PokemonGymScanPoint PokemonGymScanAll DESTINATION bin)
